@@ -1,5 +1,6 @@
 .nav-bar {
   margin: 0;
+  z-index: 999;
   display: flex;
   align-items: center;
   position: sticky;
@@ -28,6 +29,7 @@ img {
   margin-left: 6rem;
   font-size: 0;
   width: 80%;
+  /* transition: transform 0.3s ease; */
 }
 
 .menu-items li {
@@ -54,23 +56,23 @@ img {
   visibility: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1150px) {
   body {
     overflow-x: hidden;
   }
   .menu-items {
     position: absolute;
     right: 0;
-    height: 40vh;
+    height: 100vh;
+    width: 500px;
     top: 8vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 5rem;
-    /* background-color: var(--color-text-base); */
+    background-color: var(--color-text-base);
     transform: translateX(100%);
-    transition: transform 0.3s ease-in;
   }
 
   .menu-icon {
@@ -82,5 +84,6 @@ img {
   }
   .active {
     transform: translateX(0%);
+    transition: transform 0.3s ease-in;
   }
 }
