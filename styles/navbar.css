@@ -1,0 +1,34 @@
+.navBar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  /* background-color: var(--color-dark); */
+  font-family: Poppins, sans-serif;
+}
+
+.logoImage {
+  padding: 20px;
+  text-align: center;
+  left: 0;
+}
+
+img {
+  width: 15rem;
+  margin-left: 20px;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 20px;
+  width: 80%;
+}
+
+.menuItems a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color-title-in-primary);
+}
