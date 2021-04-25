@@ -47,3 +47,35 @@ section .content p {
   justify-content: center;
   align-items: center;
 }
+
+.btn-content {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1.5rem;
+}
+
+.btn-content button {
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #eb4e56;
+  cursor: pointer;
+}
+
+.btn-content button:first-child:hover {
+  background: none;
+  color: var(--color-line-in-white);
+  transition: 0.3s ease;
+  border: 1px solid var(--color-line-in-white);
+}
+
+.btn-content button:last-child {
+  background: none;
+  color: var(--color-line-in-white);
+  border: 1px solid var(--color-line-in-white);
+}
