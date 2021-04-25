@@ -40,6 +40,9 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
   .menuItems {
     position: absolute;
     right: 0;
@@ -51,6 +54,7 @@ img {
     text-align: center;
     padding-top: 5rem;
     background-color: var(--color-text-base);
+    transform: translateX(100%);
   }
 
   .burguer {
