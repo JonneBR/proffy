@@ -32,3 +32,31 @@ img {
   font-size: 1.5rem;
   color: var(--color-title-in-primary);
 }
+
+.burguer {
+  color: white;
+  font-size: 35px;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .menuItems {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5rem;
+    background-color: var(--color-text-base);
+  }
+
+  .burguer {
+    position: absolute;
+    right: 0;
+    padding: 1.5rem;
+    visibility: visible;
+  }
+}
