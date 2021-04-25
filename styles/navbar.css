@@ -4,6 +4,8 @@
   align-items: center;
   position: sticky;
   font-family: Poppins, sans-serif;
+  padding: 4rem;
+  margin-left: 5rem;
   /* background-color: #eb4e56; */
 }
 
@@ -20,10 +22,11 @@ img {
 
 .menu-items {
   display: flex;
-  justify-content: right;
   gap: 2rem;
   list-style-type: none;
   margin: 20px;
+  margin-left: 6rem;
+
   width: 80%;
 }
 
