@@ -19,22 +19,26 @@
     <title>Proffy |</title>
 </head>
 <body>
-    <nav class="navBar">
-        <div class="logoImage">
+    <nav class="nav-bar">
+        <div class="logo-image">
             <img src="/images/logo.svg" alt="Logo">
         </div>
-        <ul class="menuItems">
+        <ul id="menu-links" class="menu-items">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Estudar</a></li>
             <li><a href="#">Dar Aula</a></li>
         </ul>
         <div class="burguer">
-            <i class="fa fa-bars"></i>
+            <i onclick="toggleNavBar()" id='nav-icon' class="fa fa-bars"></i>
         </div>
     </nav>
     <div class="container">
         <h1>CORPO</h1>
     </div>
+
+
+    <script src="/scripts/index.js"></script>
 </body>
+
 </html>
