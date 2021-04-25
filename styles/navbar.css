@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   position: sticky;
-  /* background-color: var(--color-dark); */
   font-family: Poppins, sans-serif;
 }
 
@@ -33,7 +32,7 @@ img {
   color: var(--color-title-in-primary);
 }
 
-.burguer {
+.menu-icon {
   color: white;
   font-size: 35px;
   visibility: hidden;
@@ -58,13 +57,12 @@ img {
     transition: transform 0.3s ease-in;
   }
 
-  .burguer {
+  .menu-icon {
     position: absolute;
     right: 0;
     margin-right: 1.5rem;
     visibility: visible;
     cursor: pointer;
-    /* border: 1px solid red; */
   }
   .active {
     transform: translateX(0%);
