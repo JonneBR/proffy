@@ -3,3 +3,29 @@
   padding: 100px;
   color: var(--color-line-in-white);
 }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 65vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+section:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #eb4e56;
+  border-radius: 0 0 0 150px;
+}
+
+section .content {
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 900px;
+}
