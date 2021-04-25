@@ -26,8 +26,12 @@ img {
   list-style-type: none;
   margin: 20px;
   margin-left: 6rem;
-
+  font-size: 0;
   width: 80%;
+}
+
+.menu-items li {
+  cursor: pointer;
 }
 
 .menu-items a {
@@ -35,6 +39,13 @@ img {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-title-in-primary);
+}
+
+.menu-items img {
+  width: 20px;
+  font-size: 0;
+  margin-left: 12px;
+  /* border: 1px solid red; */
 }
 
 .menu-icon {
