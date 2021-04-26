@@ -71,7 +71,7 @@ img {
     flex-direction: column;
     text-align: center;
     padding-top: 5rem;
-    background-color: var(--color-text-base);
+    background-color: var(--color-text-title);
     transform: translateX(100%);
   }
 
