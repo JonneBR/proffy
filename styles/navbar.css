@@ -34,6 +34,9 @@ img {
 .menu-items li {
   cursor: pointer;
 }
+.menu-items li:hover {
+  border-bottom: 3px solid var(--color-line-in-white);
+}
 
 .menu-items a {
   text-decoration: none;
