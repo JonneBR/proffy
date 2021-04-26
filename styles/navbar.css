@@ -7,7 +7,6 @@
   font-family: Poppins, sans-serif;
   padding: 4rem;
   margin-left: 5rem;
-  /* background-color: #eb4e56; */
 }
 
 .logo-image {
@@ -47,7 +46,15 @@ img {
   width: 20px;
   font-size: 0;
   margin-left: 12px;
-  /* border: 1px solid red; */
+}
+
+.sub-menu ul {
+  position: absolute;
+  display: none;
+}
+
+.sub-menu:hover ul {
+  display: block;
 }
 
 .menu-icon {
@@ -57,14 +64,11 @@ img {
 }
 
 @media screen and (max-width: 1150px) {
-  body {
-    overflow-x: hidden;
-  }
   .menu-items {
     position: absolute;
-    right: 0;
+    left: 0;
     height: 100vh;
-    width: 500px;
+    width: 360px;
     top: 8vh;
     margin: 0;
     display: flex;
@@ -72,7 +76,9 @@ img {
     text-align: center;
     padding-top: 5rem;
     background-color: var(--color-text-title);
-    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+
+    transform: translateX(-1000%);
   }
 
   .menu-icon {
@@ -85,5 +91,12 @@ img {
   .active {
     transform: translateX(0%);
     transition: transform 0.3s ease-in;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  img {
+    width: 10rem;
+    margin-left: -100px;
   }
 }
