@@ -6,7 +6,6 @@
   position: sticky;
   font-family: Poppins, sans-serif;
   padding: 4rem;
-  margin-left: 5rem;
 }
 
 .logo-image {
@@ -28,7 +27,7 @@ img {
   margin-left: 6rem;
   font-size: 0;
   width: 80%;
-  /* transition: transform 0.3s ease; */
+  transition: transform 0.3s ease;
 }
 
 .menu-items li {
@@ -67,21 +66,26 @@ img {
 }
 
 @media screen and (max-width: 1150px) {
+  .nav-bar {
+    margin-left: 0;
+  }
   .menu-items {
     position: absolute;
-    left: 0;
-    height: 100vh;
-    width: 360px;
-    top: 8vh;
-    margin: 0;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    top: 8vh;
+    transform: translateY(-250%);
     background-color: var(--color-text-title);
-    transition: transform 0.3s ease-in;
+  }
 
-    transform: translateX(-1000%);
+  .menu-items li:hover {
+    border-bottom: 3px solid var(--color-line-in-white);
   }
 
   .menu-icon {
@@ -92,7 +96,7 @@ img {
     cursor: pointer;
   }
   .active {
-    transform: translateX(0%);
+    transform: translateY(-20%);
     transition: transform 0.3s ease-in;
   }
 }
