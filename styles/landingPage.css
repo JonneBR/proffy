@@ -58,6 +58,7 @@ section .content p {
 
 .btn-content button {
   font-family: Poppins, sans-serif;
+  border: none;
   font-size: 1.2rem;
   padding: 15px;
   border-radius: 30px;

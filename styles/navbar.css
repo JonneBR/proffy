@@ -104,6 +104,6 @@ img {
 @media screen and (max-width: 780px) {
   img {
     width: 10rem;
-    margin-left: -100px;
+    margin-left: -50px;
   }
 }
