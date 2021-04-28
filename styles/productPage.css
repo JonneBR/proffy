@@ -1,0 +1,42 @@
+.product-info {
+  padding: 150px 0;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title h2 {
+  font-size: 3rem;
+  font-family: Poppins, sans-serif;
+  margin-top: 50px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: Poppins, sans-serif;
+}
+
+.content-wrapper h2 {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  padding-left: 10rem;
+}
+
+.content-wrapper p {
+  font-size: 1.2rem;
+}
+
+.image-container img {
+  width: 1200px;
+  background-position: right;
+}
