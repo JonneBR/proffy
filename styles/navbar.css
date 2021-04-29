@@ -79,7 +79,7 @@ img {
     right: 0;
     margin: 0;
     width: 100%;
-    top: 8vh;
+    top: 5vh;
     transform: translateY(-250%);
     background-color: var(--color-text-title);
   }
@@ -105,5 +105,22 @@ img {
   img {
     width: 10rem;
     margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu-items {
+    padding: 300px 0;
+    top: -2vh;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .nav-bar {
+    margin-left: 0;
+  }
+  .menu-items {
+    padding: 150px 0;
+    top: -2vh;
   }
 }
